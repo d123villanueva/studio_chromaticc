@@ -1,0 +1,675 @@
+@charset "utf-8";
+@font-face{
+	font-family: "Braga";
+	src: url("fonts/Braga.eot");
+	src: url("fonts/Braga.svg");
+	src: url("fonts/Braga.ttf");
+	src: url("fonts/Braga.woff");
+	font-family: "Vera";
+	src: url("fonts2/Vera.eot");
+	src: url("fonts2/Vera.svg");
+	src: url("fonts2/Vera.ttf");
+	src: url("fonts2/Vera.woff");
+}
+/* CSS Document */
+*{margin: 1;}
+img{
+	width: 20%;
+}
+* header, nav, a, p, ul, li, main{
+	display: inline-block;
+	margin-left: 3px; 
+	vertical-align: top;
+}
+footer img{
+	width: 100%;
+}
+header{
+	color: black;
+	font-size: 2em;
+	width: 100%;
+}
+nav{
+	width: 100%;
+	display: inline-block;
+	margin-top: -2%;
+}
+main{
+	margin-top: -6%;
+}
+li{
+	margin-top: -9%;
+	padding-left: -8%;
+}
+ul{
+	width: 90%;
+}
+ul li:first-child{
+	margin-left: 40%;
+}
+a{
+	color: black;
+	text-decoration: none;
+	font-family: 'Coolvetica', sans-serif;
+	font-size: 1.2em;
+}
+#LOGO{
+	width: 108%;
+	margin-left: 45%;
+	margin-top: 1%
+}
+.linea{
+	height: 3px;
+	background-color: black;
+}
+.linea1{
+	height: 3px;
+	background-color: black;
+	margin-top: 4%;
+}
+.linea2{
+	height: 3px;
+	background-color: black;
+	margin-top: 4%;
+}
+#HOLA{
+	width: 100%;
+	padding-top: 4%;
+}
+#COTIZACION{
+	font-family: 'Coolvetica', sans-serif;
+	font-size: 150%;
+	background-color: #000000;
+	color: #FFFFFF;
+	height: em;
+	padding: 1%;
+	padding-left: 34%;
+}
+#CLIENTES{
+	font-family: 'Coolvetica', sans-serif;
+	font-size: 225%;
+	color: #000000;
+	height: em;
+	padding-left: 39%;
+}
+#KRIPY{
+	width: 30%;
+	margin-left: -58%;
+	margin-top: 6%	
+}
+#UVM{
+	width: 30%;
+	margin-left: 1%;
+	margin-top: 6%
+}
+#MUSEO{
+	width: 30%;
+	margin-left: 2%;
+	margin-top: 6%
+}
+#BURGER{
+	width: 30%;
+	margin-left: 20%;
+	margin-top: 1%	
+}
+#STAR{
+	width: 30%;
+}
+
+#COTIZAR{
+	font-family: 'Coolvetica', sans-serif;
+	font-size: 150%;
+	background-image: ;
+	color: #FFFFFF;
+	height: em;
+	padding: 1%;
+	padding-left: 87%;
+	padding-top: 7%;
+}
+
+#FACEBOOK{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 120%;
+	color: #FFFFFF;
+	height: 1em;
+	padding: -15%;
+	padding-left: 50%;
+	margin-top: -9em;
+}
+#INSTAGRAM{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 120%;
+	color: #FFFFFF;
+	height: 1em;
+	padding: 14%;
+	padding-left: 50%;
+	margin-top: -9em;
+}
+#BEHANCE{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 120%;
+	color: #FFFFFF;
+	height: 1em;
+	padding: -1%;
+	padding-left: 50%;
+	margin-top: -9em;
+}
+#NOSOTROS1{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 220%;
+	color: #000000;
+	height: em;
+	padding-left: 24%;
+	text-align: center;
+}
+#YO1{
+	width: 34%;
+	margin-left: 7%;
+	margin-top: -28%;
+}
+#YOTEXTO{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 150%;
+	color: #000000;
+	height: em;
+	padding-left: 43%;
+	text-align: left;
+	padding-top: 7%;
+}
+#LINEA2{
+	width: 100%;
+	margin-left: 0%;
+	margin-top: 2.5em;
+}
+#TRABAJO1{
+	width: 26%;
+	margin-left: 51%;
+	margin-top: 3%;
+}
+#MISION_VISION{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 140%;
+	color: #000000;
+	height: em;
+	padding-left: 11%;
+	text-align: left;
+	margin-top: -30%;
+}
+#TRABAJO2{
+	width: 30%;
+	margin-left: 4%;
+	margin-top: 3%;
+}
+#VER_SERVICIOS{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 220%;
+	color: #000000;
+	height: em;
+	padding-left: 36%;
+	text-align: center;
+	margin-top: -19%;
+}
+#YO2{
+	width: 24%;
+	margin-left: 72%;
+	margin-top: -15%;
+}
+#CREEMOS{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 137%;
+	color: #000000;
+	height: em;
+	padding-left: 41%;
+	text-align: center;
+	margin-top: -25%;
+}
+#VER{
+	font-family: 'Coolvetica', sans-serif;
+	font-size: 150%;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 1%;
+	margin-top: -20%;
+	margin-left: -17%;
+}
+#TARJETAS{
+	width: 52%;
+	margin-left: 0%;
+	margin-top: 2%;
+}
+#TARJETAS1{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 200%;
+	color: #000000;
+	height: em;
+	padding-left: 57%;
+	text-align: center;
+	margin-top:  -30%;
+}
+#TARJETAS2{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 120%;
+	color: #000000;
+	height: em;
+	padding-left: 65%;
+	text-align: center;
+	margin-top:  -24%;
+}
+#LINEA3{
+	width: 100%;
+	margin-left: 0%;
+	margin-top: -4%;
+}
+#BRANDING{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 300%;
+	color: #000000;
+	height: em;
+	padding-left: 10%;
+	text-align: center;
+	margin-top:  4%;
+}
+#BRANDING1{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 130%;
+	color: #000000;
+	height: em;
+	margin-left: -15.5%;
+	text-align: left;
+	margin-top:  10%;
+}
+#BRANDING2{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 130%;
+	color: #000000;
+	height: em;
+	margin-left: -16%;
+	text-align: left;
+	margin-top:  21%;
+}
+#PLANES_TITULO{
+	font-family: 'Coolvetica', sans-serif;
+	font-size: 170%;
+	color: #000000;
+	height: em;
+	padding-left: 48%;
+	text-align: center;
+	margin-top:  -25%;
+}
+#BASIC1{
+	width: 48%;
+	margin-left: 48%;
+	margin-top:  -90%;
+}
+#BASIC2{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 215%;
+	color: #000000;
+	height: em;
+	padding-left: 48%;
+	text-align: center;
+	margin-top:  1%;
+}
+#BASIC3{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 110%;
+	color: #000000;
+	height: em;
+	padding-left: 48%;
+	text-align: left;
+	margin-top:  -2%;
+}
+#DIGITAL1{
+	width: 48%;
+	margin-left: 48%;
+	margin-top:  1%;
+}
+#DIGITAL2{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 215%;
+	color: #000000;
+	height: em;
+	padding-left: 48%;
+	text-align: center;
+	margin-top:  1%;
+}
+#DIGITAL3{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 110%;
+	color: #000000;
+	height: em;
+	padding-left: 48%;
+	text-align: left;
+	margin-top:  -2%;
+}
+#PREMIUM1{
+	width: 48%;
+	margin-left: 48%;
+	margin-top:  1%;
+}
+#PREMIUM2{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 215%;
+	color: #000000;
+	height: em;
+	padding-left: 48%;
+	text-align: center;
+	margin-top:  1%;
+}
+#PREMIUM3{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 110%;
+	color: #000000;
+	height: em;
+	padding-left: 48%;
+	text-align: left;
+	margin-top:  -2%;
+}
+#SOLICITA_COTIZACION1{
+	font-family: 'Coolvetica', sans-serif;
+	font-size: 150%;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 1%;
+	margin-top: -15%;
+	margin-left: 10%
+}
+
+#ILUSTRACION1{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 130%;
+	color: #000000;
+	height: em;
+	margin-left: -19%;
+	text-align: left;
+	margin-top:  10%;
+}
+#ILUSTRACIÓN2{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 130%;
+	color: #000000;
+	height: em;
+	margin-left: -18%;
+	text-align: left;
+	margin-top:  23%
+}
+#ILUSTRACION2{
+	width: 20%;
+	margin-left: 48%;
+	margin-top:  -22%;
+}
+#PLANES_TITULO1{
+	font-family: 'Coolvetica', sans-serif;
+	font-size: 170%;
+	color: #000000;
+	height: em;
+	padding-left: 15.4%;
+	text-align: center;
+	margin-top:  5%;
+}
+#ILUSTRACION_DIGITAL1{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 215%;
+	color: #000000;
+	height: em;
+	padding-left: 70%;
+	text-align: center;
+	margin-top:  -25%;
+}
+#ILUSTRACION_DIGITAL2{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 110%;
+	color: #000000;
+	height: em;
+	padding-left: 70%;
+	text-align: left;
+	margin-top:  -22%;
+}
+#ILUSTRACION3{
+	width: 20%;
+	margin-left: 48%;
+	margin-top:  -1%;
+}
+
+#ILUSTRACION_REALISTA1{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 215%;
+	color: #000000;
+	height: em;
+	padding-left: 70%;
+	text-align: center;
+	margin-top:  -25%;
+}
+
+#SOLICITA_COTIZACION2{
+	font-family: 'Coolvetica', sans-serif;
+	font-size: 150%;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 1%;
+	margin-top: -62%;
+	margin-left: 10%
+}
+
+#FOTOGRAFIA1{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 300%;
+	color: #000000;
+	height: em;
+	padding-left: 59%;
+	text-align: center;
+	margin-top:  4%;
+}
+#FOTOGRAFIA2{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 130%;
+	color: #000000;
+	height: em;
+	margin-left: -20%;
+	text-align: left;
+	margin-top:  8%;
+}
+
+#FOTOS1{
+	width: 27%;
+	margin-left: 2%;
+	margin-top: -10%;
+}
+#FOTOS2{
+	width: 27%;
+	margin-left: 0.5%;
+	margin-top: -15%;
+}
+#FO_TEXTO2{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 110%;
+	color: #000000;
+	height: em;
+	padding-left: 59%;
+	text-align: left;
+	margin-top:  -27%;
+}
+
+#SOLICITA_COTIZACION3{
+	font-family: 'Coolvetica', sans-serif;
+	font-size: 150%;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 1%;
+	margin-top: 1%;
+	margin-left: 59%
+}
+
+#OTROS1{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 300%;
+	color: #000000;
+	height: em;
+	padding-left: 37%;
+	text-align: center;
+	margin-top:  4%;
+}
+#SOCIAL1{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 200%;
+	color: #000000;
+	height: em;
+	margin-left: -52%;
+	text-align: center;
+	margin-top:  10%;
+}
+#SOCIAL2{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 110%;
+	color: #000000;
+	height: em;
+	margin-left: -20%;
+	text-align: center;
+	margin-top:  14%;
+}
+#DISEÑO_MENSUAL1{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 200%;
+	color: #000000;
+	height: em;
+	margin-left: 10%;
+	text-align: left;
+	margin-top:  10%;
+}
+#DISEÑO2{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 110%;
+	color: #000000;
+	height: em;
+	margin-left: -23%;
+	text-align: center;
+	margin-top:  14%;
+}
+
+#EDITORIAL1{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 200%;
+	color: #000000;
+	height: em;
+	margin-left: 7%;
+	text-align: left;
+	margin-top:  10%;
+}
+#EDITORIAL2{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 110%;
+	color: #000000;
+	height: em;
+	margin-left: 73.5%;
+	text-align: center;
+	margin-top:  -8.4%;
+}
+#SOLICITA_COTIZACION4{
+	font-family: 'Coolvetica', sans-serif;
+	font-size: 150%;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 1%;
+	margin-top: 8%;
+	margin-left: 42%
+}
+
+#DERECHOS{
+	width: 50%;
+	padding-top: 40%;
+	padding-left: 77%;
+}
+#SOCIALES1{
+	font-family: 'Coolvetica', sans-serif;
+	font-size: 180%;
+	background-color: #000000;
+	color: #FFFFFF;
+	height: em;
+	padding: 12%;
+	padding-left: 47%;
+	margin-top: -9em;
+}
+
+#ESTO{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 260%;
+	color: #000000;
+	height: em;
+	padding-left: 34%;
+	text-align: center;
+}
+
+div #imagen{
+	width: 50px;
+	margin: 30px;
+	background-image: url(IMAGENES/9.png);
+}
+div #info{
+	width: 50px;
+	background-color: #3b3333;
+}
+#linea4{
+	height: 3px;
+	background-color: black;
+	margin-top: 50%;
+}
+
+
+#IMAGEN1{
+	width: 100%;
+	margin-left: 0%;
+	margin-top: 1%;
+}
+#ESTOES1{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 200%;
+	color: #000000;
+	height: em;
+	padding-left: 34%;
+	text-align: center;
+	margin-top:  5%;
+}
+
+#linea5{
+	height: 3px;
+	background-color: black;
+	margin-top: -50%;
+}
+
+#CONTACTO1{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 300%;
+	color: #000000;
+	height: em;
+	padding-left: 37%;
+	text-align: center;
+	margin-top:  5%;
+}
+#CONTACTO2{
+	font-family: 'Myriad Apple', sans-serif;
+	font-size: 120%;
+	color: #000000;
+	height: em;
+	padding-left: 28%;
+	text-align: center;
+	margin-top:  -1%;
+}
+#datos{
+	font-family: 'Adega Serif', sans-serif;
+	font-size: 140%;
+	color: #000000;
+	height: em;
+	padding-left: 7%;
+	text-align: center;
+	margin-top:  -10%;
+}
+
+#facebook{
+	font-family: 'Coolvetica', sans-serif;
+	font-size: 160%;
+	color: #000000;
+	height: em;
+	padding-left: 28%;
+	text-align: center;
+	margin-top:  7%;
+}
